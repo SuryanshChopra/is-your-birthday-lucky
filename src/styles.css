@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  background-color: #d1d5db;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleofpage {
+  background-color: pink;
+  padding: 1rem 7rem;
+  box-shadow: 0px 0px 10px 5px grey;
+}
+
+.titleofpage a {
+  display: block;
+  color: black;
+  padding: 0.5rem 0 2rem;
+  font-size: 1.5rem;
+}
+
+.section {
+  min-height: 100vh;
+  background-color: pink;
+  padding: 1rem;
+  box-shadow: 0px 0px 10px 2px grey;
+}
+
+#notice {
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+.label {
+  padding: 1rem 0rem 0.5rem;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+input {
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  border: none;
+  box-shadow: 0px 0px 10px 2px var(--secondary-color);
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  border: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  border-radius: 1.1rem;
+
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#output {
+  height: 100px;
+}
+
+footer {
+  box-shadow: 0px 0px 10px 2px grey;
+  padding: 1rem 0 1rem;
+}
+
+.footerLink a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
