@@ -1,5 +1,7 @@
 # is-your-birthday-lucky
-Day 8 Training: Making a react app
+Mark 11: Is your birthday lucky?
+
+
 
 Live project hosted on [code sandbox](https://7vsin.csb.app/?#mainSection)
 
